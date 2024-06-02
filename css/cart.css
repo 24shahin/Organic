@@ -1,0 +1,239 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ol,ul{
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+li{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+.close{
+    position: relative;
+}
+img{
+    vertical-align: middle;
+}
+.bg{
+    background: #8800001c;
+}
+.wi{
+    background-color: #f3f3f3;
+    color: #282828;
+    max-width: 1000px;
+    position: absolute;
+    z-index: 99;
+    top: 92px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+/* common */
+.cart .cart_head{
+    height: 80px;
+    line-height: 80px;
+    /*! border-bottom: 5px solid #aea2a294; */
+    background: #8800001c;
+    padding: 0 10px;
+    
+    box-shadow: 0px 0px 10px 1px #990b0b;
+    margin-top: 20px;
+}
+.cart .cart_head .inputt1{
+    height: 40px;
+    width: 100%;
+    border: 2px solid #37373736;
+    transition: 0.5s;
+    top: 0;
+    right: 0;
+    background-color: transparent;
+    border-radius:9px;
+    outline: none;
+    padding: 0 20px;
+}
+
+.cart .cart_head .search1{
+    position: absolute;
+    top: 20px;
+    right: 35px;
+    z-index: 99;
+  
+}
+.check{
+    width: 20px;
+    height: 20px;
+    border-radius: 2px;
+}
+.cart .select_all_item{
+    padding: 17px 10px 10px;
+    display: flex;
+    justify-content: space-between;
+    background: #8800001c;
+    margin-top: 20px;
+}
+.cart .select_all_item .sel_inn{
+    display: flex;
+}
+.cart .select_all_item .sel_inn h6{
+    padding-left:10px;
+}
+.cart .select_all_item .sel_inn2{
+    display: flex
+}
+.cart .select_all_item .sel_inn2 h6{
+    padding-left: 10px;
+}
+.cart .select_item {
+    border-bottom: 2px solid #fff
+}
+.cart .select_item .sel_inn{
+    display: flex;
+    background: #8800001c;
+    padding: 7px 10px 0;
+    margin-top: 10px;
+    
+}
+.cart .select_item .sel_inn h6{
+    padding-left: 10px;
+
+}
+.cart  .sel_inner2{
+    display: flex;
+    padding: 17px 10px 10px;
+    margin-top: 10px;
+    height: 125px;
+    align-items: center
+    
+}
+.cart .sel_inner2 h5 a{
+    padding-left: 10px;
+    color: #000000c7;
+}
+.cart .sel_inner2 img{
+    height: 100%;
+    padding-left: 10px;
+}
+.bgc{
+    display: flex;
+
+}
+.taka{
+    display: flex;
+    justify-content: space-between
+}
+.taka .takk{
+    padding: 17px 0;
+    color: #F47606;
+}
+.taka .takk h5, .not{
+    text-decoration: line-through;
+    color: #0000008a;
+}
+.taka .takk h5,
+.taka .takk h3,
+.taka .takk h6{
+    line-height: 20px
+}
+.taka .takk .left{
+    padding-left: 10px
+}
+.taka .takk .left, .cl{
+    color: #00000061;
+}
+.taka .takk2 .minus,
+.taka .takk2 p,
+.taka .takk2 .plus{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    margin: 20px 2px;
+    border-radius: 5px;
+    font-size: 20px;
+    border: none;
+}
+.taka .takk2 .minus{
+    background: #0000002e;
+}
+.taka .takk2 p{
+    border: 1px solid #00000024;
+   
+}
+.taka .takk2 .plus{
+    background: #00000029; 
+}
+.cart .order_sum{
+    padding: 15px 10px 20px;
+    margin-top: 20px;
+}
+.cart .order_sum h3{
+    font-weight: 600
+}
+.cart .order_sum .sub_total{
+    display: flex;
+    justify-content: space-between
+}
+.cart .order_sum .sub_total h6{
+    padding-top: 4px
+}
+.cart .order_sum .sub_total2{
+    display: flex;
+    justify-content: space-between
+}
+.cart .order_sum .Sub_total_txt2{
+    padding-top: 10px
+}
+.cart .order_sum .sub_total2 h6{
+    padding-top: 14px
+}
+.cart .order_sum input{
+    width: 70%;
+    padding: 5px 10px;
+    outline: none;
+    color: #00000091;
+    border: 1px solid #0000005e;
+    border-radius: 4px;
+    margin-top: 15px;
+}
+.cart .order_sum button{
+    background: #fb9595;
+    padding: 6px 14px;
+    border: none;
+    border-radius: 4px;
+    margin-top: 15px;
+}
+.cart .order_sum .sub_total3{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 15px;
+}
+.cart .order_sum .Sub_total_txt3{
+    padding-top: 14px
+}
+.cart .order_sum .sub_total3 h6{
+    padding-top: 10px;
+    color: #F47606;
+    font-size:24px
+}
+.cart .order_sum a{
+    color: #460b0b;
+    font-size: 20px;
+    padding: 7px 23px;
+    background: #db4f4f9e;
+    border-radius: 4px;
+}
+
+
+
+
+
+
